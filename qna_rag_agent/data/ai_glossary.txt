@@ -1,0 +1,141 @@
+# AI GLOSSARY: KEY TERMS AND CONCEPTS
+
+## Foundational AI Concepts
+
+**Artificial Intelligence (AI)**: The broader field of creating machines or software that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation.
+
+**Machine Learning (ML)**: A subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. ML algorithms build mathematical models based on sample data to make predictions or decisions.
+
+**Deep Learning**: A specialized form of machine learning that uses neural networks with many layers (hence "deep") to analyze various factors of data. Deep learning excels at identifying patterns in unstructured data like images, sound, and text.
+
+**Supervised Learning**: A machine learning approach where algorithms are trained on labeled data, learning to map inputs to known outputs. Examples include classification and regression tasks.
+
+**Unsupervised Learning**: A machine learning approach where algorithms identify patterns in unlabeled data. Common applications include clustering, anomaly detection, and dimensionality reduction.
+
+**Reinforcement Learning**: A machine learning approach where agents learn to make decisions by performing actions in an environment to maximize some notion of cumulative reward. Used in robotics, game playing, and resource management.
+
+**Transfer Learning**: A technique where a model developed for one task is reused as the starting point for a model on a second task, significantly reducing training time and data requirements.
+
+## Neural Networks and Architectures
+
+**Neural Network**: A computing system inspired by biological neural networks, consisting of interconnected nodes (neurons) that process and transmit information. The foundation of modern deep learning systems.
+
+**Convolutional Neural Network (CNN)**: A specialized neural network architecture primarily used for image processing, computer vision tasks, and some NLP applications. CNNs use convolutional layers to automatically detect features.
+
+**Recurrent Neural Network (RNN)**: A class of neural networks designed for sequential data processing where connections between nodes form directed cycles, allowing the network to maintain a memory of previous inputs.
+
+**Long Short-Term Memory (LSTM)**: A special kind of RNN capable of learning long-term dependencies, designed to avoid the vanishing gradient problem that affects standard RNNs.
+
+**Transformer**: A deep learning architecture introduced in 2017 that revolutionized NLP by using self-attention mechanisms to process sequential data more effectively. The foundation of most modern language models.
+
+**Attention Mechanism**: A component in neural networks that allows the model to focus on specific parts of the input when generating output, similar to how humans pay attention to relevant information.
+
+**Self-Attention**: A type of attention mechanism where the model attends to different positions within the same sequence, allowing it to capture dependencies regardless of their distance in the sequence.
+
+**Encoder-Decoder Architecture**: A neural network design with two main components: an encoder that processes input data into a fixed-dimensional representation, and a decoder that transforms this representation into the desired output format.
+
+## Language Models and NLP
+
+**Natural Language Processing (NLP)**: The field focused on enabling computers to understand, interpret, and generate human language in useful ways. Encompasses tasks like translation, summarization, sentiment analysis, and question answering.
+
+**Large Language Model (LLM)**: A type of AI model trained on vast amounts of text data to understand and generate human-like text. Examples include GPT-4, PaLM, Claude, and Llama.
+
+**Generative AI**: AI systems that can create new content, including text, images, audio, code, or other media, based on patterns learned from training data.
+
+**Tokenization**: The process of breaking text into smaller units (tokens) that can be processed by language models. Tokens can be words, subwords, or individual characters.
+
+**Token**: The basic unit of text that language models process. Tokens can be words, parts of words, or individual characters, depending on the tokenization method.
+
+**Context Window**: The maximum number of tokens a language model can process at once, which limits how much text it can "see" and remember during a single interaction.
+
+**Prompt Engineering**: The practice of designing and optimizing input prompts to elicit desired behaviors from language models. Includes techniques like few-shot learning, chain-of-thought prompting, and system prompts.
+
+**Chain-of-Thought Prompting**: A prompting technique that encourages language models to break down complex reasoning tasks into intermediate steps, improving performance on tasks requiring multi-step reasoning.
+
+**Fine-tuning**: The process of taking a pre-trained model and further training it on a specific dataset to adapt it to a particular task or domain.
+
+**Instruction Tuning**: A specific type of fine-tuning where models are trained to follow natural language instructions, making them more helpful and aligned with human intent.
+
+**Hallucination (in AI)**: When an AI system generates information that is factually incorrect or has no basis in the provided context or training data. A significant challenge for generative AI systems.
+
+**Perplexity**: A measurement of how well a language model predicts a sample of text. Lower perplexity indicates better prediction performance.
+
+## Retrieval and Knowledge Systems
+
+**Retrieval Augmented Generation (RAG)**: A technique that enhances language model outputs by retrieving relevant information from external knowledge sources before generating responses. Helps reduce hallucinations and ground responses in factual information.
+
+**Vector Database**: A specialized database designed to store and query high-dimensional vectors, often used in AI applications for similarity search. Examples include Pinecone, Weaviate, and FAISS.
+
+**Embedding**: A technique that maps discrete objects (like words or documents) to vectors of real numbers in a continuous vector space, capturing semantic relationships. Enables mathematical operations on language.
+
+**Semantic Search**: A search method that uses embeddings to understand the meaning and context of a query rather than just matching keywords, providing more relevant results.
+
+**Cosine Similarity**: A measure of similarity between two non-zero vectors, commonly used to compare document or query embeddings in retrieval systems.
+
+**BM25**: A ranking function used to estimate the relevance of documents to a given search query. A traditional information retrieval algorithm often combined with neural approaches.
+
+**Hybrid Search**: Combining multiple search techniques (e.g., keyword-based, vector-based, knowledge graph) to leverage the strengths of each approach.
+
+**Chunking**: The process of dividing documents into smaller segments for indexing and retrieval in RAG systems. Effective chunking strategies balance context preservation with retrieval precision.
+
+**Knowledge Graph**: A structured representation of knowledge as a network of entities, their properties, and the relationships between them. Used to enhance retrieval systems with explicit relationships.
+
+## AI Development and Evaluation
+
+**Training Data**: The dataset used to train a machine learning model, consisting of example inputs and their corresponding outputs (for supervised learning).
+
+**Validation Data**: A separate dataset used to tune hyperparameters and evaluate model performance during development, helping prevent overfitting.
+
+**Test Data**: A dataset kept separate from training and validation, used to provide an unbiased evaluation of the final model's performance.
+
+**Overfitting**: When a model learns the training data too well, including its noise and outliers, resulting in poor performance on new, unseen data.
+
+**Underfitting**: When a model is too simple to capture the underlying pattern in the data, resulting in poor performance on both training and new data.
+
+**Gradient Descent**: An optimization algorithm used to minimize the loss function in machine learning models by iteratively adjusting parameters.
+
+**Hyperparameter**: A parameter whose value is set before the learning process begins, as opposed to model parameters that are learned during training.
+
+**Batch Size**: The number of training examples used in one iteration of model training. Affects training speed, memory usage, and model convergence.
+
+**Epoch**: One complete pass through the entire training dataset during the training of a machine learning model.
+
+**Learning Rate**: A hyperparameter that controls how much to change the model in response to the estimated error each time the model weights are updated.
+
+## AI Ethics and Responsible AI
+
+**AI Alignment**: The challenge of ensuring that AI systems act in accordance with human values and intentions, particularly as they become more capable.
+
+**Bias (in AI)**: Systematic errors in AI systems that can lead to unfair outcomes for certain groups, often reflecting biases in training data or algorithm design.
+
+**Explainable AI (XAI)**: AI systems designed to provide explanations for their decisions or predictions in ways that humans can understand.
+
+**AI Safety**: The field focused on ensuring that advanced AI systems are developed and deployed in ways that are safe and beneficial to humanity.
+
+**Responsible AI**: Principles and practices for developing AI systems that are fair, transparent, accountable, and respect human rights and values.
+
+**AI Governance**: Frameworks, policies, and institutions that guide the development and use of AI technologies to ensure they benefit society.
+
+**Data Privacy**: Protecting personal information used in AI systems from unauthorized access and ensuring compliance with privacy regulations.
+
+## Multimodal AI and Emerging Concepts
+
+**Multimodal AI**: AI systems that can process and generate multiple types of data (text, images, audio, video) and understand the relationships between them.
+
+**Diffusion Model**: A type of generative model that learns to gradually denoise data, used in state-of-the-art image and video generation systems like DALL-E and Stable Diffusion.
+
+**Foundation Model**: Large-scale AI models trained on broad data that can be adapted to a wide range of downstream tasks through fine-tuning or prompting.
+
+**Agent**: An AI system that can perceive its environment, make decisions, and take actions to achieve specific goals, often with some degree of autonomy.
+
+**Agentic Workflow**: A system where multiple AI components or agents work together to accomplish complex tasks, often involving planning, reasoning, and tool use.
+
+**Agentic Routing**: The process of intelligently directing queries or tasks to the most appropriate AI agent, tool, or processing pipeline based on the query's content and intent. In RAG systems, agentic routing determines whether a query should be handled by specialized tools (like calculators or dictionaries) or by the retrieval-augmented generation pipeline.
+
+**Tool Use (in AI)**: The capability of AI systems to leverage external tools or APIs to extend their functionality, such as web search, code execution, or database queries.
+
+**In-context Learning**: The ability of large language models to learn from examples provided within the prompt without updating their weights, also known as few-shot learning.
+
+**Parameter-Efficient Fine-Tuning (PEFT)**: Techniques like LoRA (Low-Rank Adaptation) that allow fine-tuning of large models with significantly fewer resources by updating only a small subset of parameters.
+
+**Quantization**: Reducing the precision of the numerical representations in a model to decrease its size and computational requirements, often with minimal impact on performance.

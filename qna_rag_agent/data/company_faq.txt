@@ -1,0 +1,38 @@
+Q: What is RAGent AI?
+A: RAGent AI is a fictional company specializing in Retrieval Augmented Generation (RAG) technologies. Founded in 2023, we build intelligent systems that combine the power of large language models with precise information retrieval. Our mission is to make AI more accurate, transparent, and useful by grounding AI responses in verified information sources.
+
+Q: What is the history of RAGent AI?
+A: RAGent AI was founded in 2023 by Dr. Sarah Chen and Dr. Michael Rodriguez, both former researchers at leading AI labs. The company secured $25 million in seed funding from Sequoia Capital and Andreessen Horowitz. In 2024, the company expanded internationally and launched its first commercial products. By 2025, RAGent AI has become one of the fastest-growing AI startups, with a valuation exceeding $500 million.
+
+Q: What products does RAGent AI offer?
+A: RAGent AI offers three main product lines: RAGent Search (enterprise search solution), RAGent Assistant (customizable AI assistants), and RAGent Analytics (data analysis with RAG capabilities). Each product is available in Basic, Professional, and Enterprise tiers with varying features and support levels. Our newest offering, RAGent Connect, provides API access to our RAG infrastructure for developers.
+
+Q: Can you describe RAGent Search in more detail?
+A: RAGent Search is our flagship enterprise search solution that transforms how organizations find and utilize their internal knowledge. It indexes documents across multiple repositories (SharePoint, Google Drive, Confluence, etc.) and enables natural language queries with precise, source-attributed answers. Key features include multi-language support, document-level access controls, custom knowledge domains, and an analytics dashboard to track usage patterns and knowledge gaps.
+
+Q: What makes RAGent Assistant unique?
+A: RAGent Assistant stands out by combining the conversational abilities of LLMs with enterprise-grade information retrieval. Unlike generic AI assistants, RAGent Assistant is deeply integrated with your organization's knowledge base and can be customized for specific domains like legal, healthcare, finance, or customer support. It features built-in citation of sources, confidence scoring, human-in-the-loop verification for critical information, and seamless integration with existing workflow tools.
+
+Q: How does RAGent Analytics work?
+A: RAGent Analytics transforms how organizations extract insights from their data. It combines traditional business intelligence capabilities with natural language interfaces and RAG technology. Users can ask complex analytical questions in plain English, and the system will retrieve relevant data, perform appropriate analyses, and generate insights with visualizations. The system maintains a comprehensive audit trail of data sources and analytical methods used for each insight.
+
+Q: Where is RAGent AI headquartered?
+A: RAGent AI is headquartered in San Francisco, California, with additional offices in New York, London, and Singapore. Our San Francisco office houses our executive team and product development, while our New York office focuses on finance and enterprise sales. The London and Singapore offices serve as regional hubs for our European and Asian markets, respectively. We also have a growing remote workforce distributed across 15 countries.
+
+Q: How many employees does RAGent AI have?
+A: As of 2025, RAGent AI employs approximately 250 people globally, with expertise in machine learning, natural language processing, and software engineering. Our team includes 45 PhDs in AI-related fields, former researchers from top AI labs, and industry veterans from leading tech companies. We maintain a diverse workforce with employees from 28 different countries and a 45% female representation in technical roles.
+
+Q: What technologies does RAGent AI use?
+A: RAGent AI leverages cutting-edge technologies including transformer-based language models, vector databases, semantic search algorithms, and custom embedding techniques to deliver state-of-the-art RAG solutions. Our proprietary RAGent Core platform is built on a distributed computing architecture using Kubernetes, with support for multiple LLM providers including OpenAI, Anthropic, and open-source models. We've developed specialized retrieval algorithms that outperform standard vector search by 37% on benchmark datasets.
+
+Q: Who are RAGent AI's main customers?
+A: RAGent AI serves a diverse range of enterprise customers across industries. Our client portfolio includes Fortune 500 companies in finance (Goldman Sachs, JPMorgan), healthcare (Mayo Clinic, Kaiser Permanente), technology (Microsoft, Adobe), manufacturing (Boeing, Siemens), and professional services (Deloitte, McKinsey). We also work with government agencies and educational institutions to improve their knowledge management and information retrieval capabilities.
+
+Q: What is RAGent AI's approach to AI safety and ethics?
+A: RAGent AI is committed to developing responsible AI systems. Our RAG-based approach inherently reduces hallucination risks by grounding responses in verified information. We maintain a dedicated AI Ethics Board that reviews product decisions and establishes guidelines for responsible AI development. All our products include features for bias detection, source verification, and transparency in AI-generated content. We publish quarterly transparency reports and participate in industry initiatives to establish ethical standards for AI systems.
+
+Q: How does RAGent AI handle data privacy and security?
+A: Data privacy and security are foundational to RAGent AI's operations. We maintain SOC 2 Type II, ISO 27001, and GDPR compliance across all our products. Customer data is encrypted both in transit and at rest, with strict access controls and audit logging. Our systems are designed with a privacy-first architecture that minimizes data retention and provides customers with complete control over their information. We conduct regular security audits and penetration testing to ensure the highest standards of protection.
+
+Q: What is RAGent AI's pricing model?
+A: RAGent AI offers flexible pricing models tailored to organization size and usage requirements. Our products are available through annual subscriptions with tiered pricing based on user count, document volume, and feature requirements. The Basic tier starts at $15,000 annually for small teams, while Enterprise deployments typically range from $100,000 to $500,000 annually. We also offer proof-of-concept engagements for organizations wanting to evaluate our technology before full deployment.
