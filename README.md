@@ -1,3 +1,13 @@
+
+![image](https://github.com/user-attachments/assets/e320b07e-9ba9-4a78-88d7-78b5cfaa1199)
+
+<img width="1352" alt="image" src="https://github.com/user-attachments/assets/3440938f-d665-4e36-8e6a-e5d11e8be372" />
+
+## history
+![Uploading image.png…]()
+
+
+
 # RAG-Powered Multi-Agent Q&A System
 
 This project implements an intelligent knowledge assistant that retrieves relevant information from a document collection, generates natural-language answers via an LLM, and orchestrates the retrieval and generation steps with an advanced agentic workflow. The system can handle both simple and complex queries, including mixed queries that combine factual questions with calculations.
