@@ -17,7 +17,7 @@ from src.agents.agent_orchestrator import AgentOrchestrator
 
 # Load environment variables
 load_dotenv()
-groq_api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = st.secrets['groq_api']
 
 if not groq_api_key:
     st.error("Error: GROQ_API_KEY not found in environment variables.")
